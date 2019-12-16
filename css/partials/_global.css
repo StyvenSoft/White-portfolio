@@ -1,0 +1,13 @@
+
+
+.button{
+    padding: .8rem 2.2rem;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: var(--text-font);
+}
