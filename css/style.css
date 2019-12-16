@@ -1,3 +1,22 @@
+@import url(./partials/_variables.css);
+
 body{
     font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    padding: 1rem 10rem;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.navbar-nav .active a{
+    background: var(--gradient-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }
