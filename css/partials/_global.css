@@ -4,10 +4,28 @@
     padding: .8rem 2.2rem;
     position: relative;
     border: 3px solid transparent;
-    border-radius: 4px;
+    margin-right: .5rem;
 }
-.primary-button{
+.primary-button, 
+.secondary-button:hover{
     background: var(--gradient-color);
     background-clip: padding-box;
     color: var(--text-font);
+    transition: .6s ease;
+}
+.primary-button:hover, 
+.secondary-button{
+    background: var(--text-font);
+    background-clip: padding-box;
+    color: var(--primary-color);
+}
+.primary-button::after,
+.secondary-button::after{
+    content: '';
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color);
+    border-radius: 4px;
+    z-index: -1;
 }

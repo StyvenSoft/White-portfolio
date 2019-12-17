@@ -34,3 +34,7 @@ body{
     margin-left: 5%;
     transform: translateY(-10px);
 }
+.title-site h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
