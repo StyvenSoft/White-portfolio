@@ -22,7 +22,7 @@ body{
 }
 
 .title-site h3{
-    padding-top: 20%;
+    padding-top: 15%;
     font-weight: 600;
 }
 .title-site h3::after{
@@ -37,4 +37,7 @@ body{
 .title-site h1{
     font-size: 3rem;
     font-weight: 600;
+}
+.banner-img, .title-site{
+    margin-bottom: 5rem;
 }
