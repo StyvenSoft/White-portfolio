@@ -1,9 +1,6 @@
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
 .navbar{
     padding: 1rem 8rem;
 }
@@ -44,7 +41,33 @@ body{
 .about-content{
     padding: 8rem 7rem;
 }
-h2 span{
-    letter-spacing: 18px;
-    font-weight: 600;
+
+.brand-content{
+    padding: 1rem 10rem;
+    margin-bottom: 4rem;
+}
+.first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.col-lg-4 .singlebrand{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1.8rem 0;
+    margin: .9rem 0;
+    /* width: 180px;
+    height: 100px; */
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.singlebrand > img{
+    width: 70%;
+}
+.singlebrand:hover{
+    box-shadow: 0 0 15px 0 rgb(56, 56, 56);
+    transform: scale(1.1);
+}
+.experience{
+    padding-left: 1rem;
+    background-color: rgb(214, 214, 214);
 }
