@@ -51,7 +51,7 @@
     justify-content: center;
 }
 .col-lg-4 .singlebrand{
-    border: 1px solid black;
+    border: 1px rgba(59, 69, 85, 0.24) solid;
     text-align: center;
     padding: 1.8rem 0;
     margin: .9rem 0;
@@ -64,10 +64,17 @@
     width: 70%;
 }
 .singlebrand:hover{
-    box-shadow: 0 0 15px 0 rgb(56, 56, 56);
+    box-shadow: 0 4px 24px 0 rgba(59, 69, 85, 0.26);
     transform: scale(1.1);
 }
 .experience{
-    padding-left: 1rem;
-    background-color: rgb(214, 214, 214);
+    padding: 3rem;
+    background-color: rgba(214, 214, 214, 0.438);
+}
+.years{
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 1rem;
+    margin-top: -1rem;
+    color: var(--primary-color);
 }
