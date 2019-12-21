@@ -106,7 +106,8 @@
     text-transform: uppercase;
     margin-bottom: 1.5rem;
     outline: 0;
+    padding-right: 1.5rem;
 }
-.img > img{
+.img img{
     width: 15rem;
 }

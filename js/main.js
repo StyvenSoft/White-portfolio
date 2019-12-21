@@ -13,4 +13,12 @@ $(document).ready(function(){
         });
         return false;
     })
+
+    $('.projects .buttons-group #btnOne').trigger('click');
+
+    $('.projects .grid .test-popup-link').magnificPopup({
+        type: 'image',
+        gallery:{enabled:true} 
+      });
+
 });

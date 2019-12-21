@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
 </head>
 <body>
     <header class="header-main">
@@ -210,10 +210,10 @@
             <div class="container">
                 <div class="project-title pb-5">
                     <h1 class="text-uppercase title-h1">Proyectos recientes</h1>
-                    <h1 class="text-uppercase title-h1">Trabajos de calidad</h1>
+                    <h2 class="title-h1">Trabajos de calidad</h2>
                 </div>
                 <div class="buttons-group">
-                    <button type="button" data-filter="*" class="active">Todos</button>
+                    <button type="button" data-filter="*" class="active" id="btnOne">Todos</button>
                     <button type="button" data-filter=".latest">Populares</button>
                     <button type="button" data-filter=".popular">Últimos</button>
                     <button type="button" data-filter=".following">Actualmente</button>
@@ -222,7 +222,9 @@
                 <div class="row grid">
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div class="our-project">
-                            <div class="img"><img src="./img/Captura14.PNG" alt="Imagen"></div>
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/Captura14.PNG">
+                                <img src="./img/Captura14.PNG" alt="Imagen"></a></div>
                             <div class="title py-4">
                                 <h4 class="text-uppercase">Diseño minimalista</h4>
                                 <span class="text-secondary">Portafolio - últimos</span>
@@ -231,7 +233,8 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
                         <div class="our-project">
-                            <div class="img"><img src="./img/Captura15.PNG" alt="Imagen"></div>
+                            <div class="img"><a class="test-popup-link" href="./img/Captura07.PNG">
+                                <img src="./img/Captura07.PNG" alt="Imagen"></a></div>
                             <div class="title py-4">
                                 <h4 class="text-uppercase">Dibujo Gráfico</h4>
                                 <span class="text-secondary">Portafolio - Popular</span>
@@ -240,10 +243,71 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
                         <div class="our-project">
-                            <div class="img"><img src="./img/Captura10.PNG" alt="Imagen"></div>
+                            <div class="img"><a class="test-popup-link" href="./img/Captura12.PNG">
+                                <img src="./img/Captura12.PNG" alt="Imagen"></a></div>
                             <div class="title py-4">
                                 <h4 class="text-uppercase">Luz resplandor</h4>
                                 <span class="text-secondary">Portafolio - Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img"><a class="test-popup-link" href="./img/Captura01.PNG">
+                                <img src="./img/Captura01.PNG" alt="Imagen"></a></div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Diseño minimalista</h4>
+                                <span class="text-secondary">Portafolio - últimos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img"><a class="test-popup-link" href="./img/Captura06.PNG">
+                                <img src="./img/Captura06.PNG" alt="Imagen"></a></div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Diseño minimalista</h4>
+                                <span class="text-secondary">Portafolio - últimos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img"><a class="test-popup-link" href="./img/Captura09.PNG">
+                                <img src="./img/Captura09.PNG" alt="Imagen"></a></div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Diseño minimalista</h4>
+                                <span class="text-secondary">Portafolio - últimos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img"><a class="test-popup-link" href="./img/Captura03.PNG">
+                                <img src="./img/Captura03.PNG" alt="Imagen"></a></div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Diseño minimalista</h4>
+                                <span class="text-secondary">Portafolio - últimos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img"><a class="test-popup-link" href="./img/Captura02.PNG">
+                                <img src="./img/Captura02.PNG" alt="Imagen"></a></div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Diseño minimalista</h4>
+                                <span class="text-secondary">Portafolio - últimos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img"><a class="test-popup-link" href="./img/Captura05.PNG">
+                                <img src="./img/Captura05.PNG" alt="Imagen"></a></div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Diseño minimalista</h4>
+                                <span class="text-secondary">Portafolio - últimos</span>
                             </div>
                         </div>
                     </div>
@@ -251,7 +315,10 @@
             </div>
         </section>
     </main>
-    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
