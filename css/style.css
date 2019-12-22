@@ -114,3 +114,25 @@
 .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
+.about-title p{
+    padding-top: 1rem;
+}
+.client{
+    box-shadow: var(--box-shadow);
+    margin: 2.5rem 1.5rem;
+    padding: 1rem;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: var(--primary-color)!important;
+    width: 13px;
+    height: 13px;
+}
+.subscribe{
+    background: var(--gradient-color);
+    padding: 3rem;
+    margin-bottom: 5rem;
+    color: var(--text-font);
+}
+.input-textbox input{
+    width: 160%;
+}
