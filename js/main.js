@@ -34,5 +34,18 @@ $(document).ready(function(){
             }
           }
       });   
-
+      let navOffset = $('.header-main').height() + 50;
+      const navbar = () => {
+        if($('.header-main').length){
+          $(window).scroll(() =>{
+            let scroll = $(window).scrollTop();
+            if(scroll >= navOffset){
+              $('.header-main .main-menu').addClass('navbar-fix');
+            }else{
+              $('.header-main .main-menu').removeClass('navbar-fix');
+            }
+          })
+        }
+      }
+      navbar();
 });
