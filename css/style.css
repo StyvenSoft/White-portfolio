@@ -17,6 +17,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+.banner-site .container {
+    margin-top: 5%;
+}
 
 .title-site h3{
     padding-top: 15%;
@@ -86,13 +89,14 @@
     padding: 7rem 2rem;
 }
 .services-title{
-    padding: 0 12rem;
+    padding: 0 5%;
     margin-bottom: 2rem;
 }
 .services-content{
     background-color: rgba(251, 248, 253, 0.981);
     padding: 1rem 0;
     transition: .7s ease;
+    margin: 1rem 0;
 }
 .services-content:hover{
     box-shadow: var(--box-shadow);
@@ -128,6 +132,9 @@ button.active {
     box-shadow: var(--box-shadow);
     margin: 2.5rem 1.5rem;
     padding: 1rem;
+}
+.about-client{
+    margin-top: 1rem;
 }
 .owl-theme .owl-dots .owl-dot.active span{
     background: var(--primary-color)!important;

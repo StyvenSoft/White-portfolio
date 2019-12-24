@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 h2 span{
     letter-spacing: 18px;
     font-weight: 600;

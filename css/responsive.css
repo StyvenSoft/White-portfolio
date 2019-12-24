@@ -1,0 +1,37 @@
+@media only screen and (max-width: 425px){
+    .navbar{
+        padding: 0 5%;
+    }
+    .nav-link{
+        padding: 0.7rem;
+    }
+    .title-site h1 {
+        font-size: xx-large;
+    }
+    .banner-img{
+        display: none;
+    }
+    .buttons-site .flex-wrap .button {
+        margin: 1rem 0;
+    }
+    .about-content,
+    .brand-content,
+    .services,
+    .services-title {
+    padding: inherit;
+    margin-bottom: 3rem;
+    }
+    h2 span {
+        letter-spacing: inherit;
+    }
+    .input-textbox input{
+        width: 160%;
+        margin: 1rem 0;
+    }
+}
+@media only screen and (min-width: 768px){
+    .banner-img, .title-site {
+        justify-content: center;
+        display: grid;
+    }
+}
